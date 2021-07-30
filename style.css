@@ -1,0 +1,962 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.pink-nav{
+    width: 100%;
+    height: 54px;
+    background-color: #e91e63;
+    color: #ffffff;
+    font-family: poppins;
+}
+.left-pinkNav{
+    float: left;
+    position: relative;
+    top: 17px;
+    left: 172px;
+}
+.right-pinkNav{
+    float: right;
+    position: relative;
+    top: 15px;
+    right: 172px;
+}
+
+.right-pinkNav i{
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 5px;
+    margin: -7px;
+    padding-left: 6px;
+    padding-right: 8px;
+}
+li{
+    display: inline;
+    margin: 10px;
+}
+.white-nav{
+    clear: both;
+    width: 100%;
+    height: 83px;
+    background-color: white;
+}
+.logo{
+    height: 63px;
+    width: 139px;
+    position: relative;
+    left: 167px;
+    top: 13px;
+}
+.right-wh ul{
+    float: right;
+    display: inline;
+    position: relative;
+    top: -44px;
+    right: 174px;
+    font-family: Poppins;
+    
+}
+.right-wh ul li{
+    margin: 13px;
+}
+.right-wh ul li i{
+    position: absolute;
+    padding-inline: 4px;
+}
+.right-wh ul li button{
+    color: white;
+    background-color:#e91e63 ;
+    height: 43px;
+    width: 97px;
+    border: none;
+    border-radius: 30px;
+    position: relative;
+    top: -3px;
+    right: -46px;
+    font-family: Poppins;
+    
+}
+.fa-bars{
+    position: relative;
+    top: 7px;
+}
+.win1wrap{
+    clear: both;
+    
+}
+.window1{
+    clear: both;
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url("./stud.jpg");
+    height: 712px;
+    width: 100%;
+    background-size:100% 712px;
+    text-align: center;
+    
+    background-repeat: no-repeat;
+}
+
+.window1 div{
+    clear: both;
+    clear: both;
+    position: relative;
+    width: 912px;
+    top: 162px;
+    
+    margin: 0 auto;
+    font-family: Poppins;
+
+    color: white;
+height: 392px;
+width: 912px;
+}
+.window1 div h1{
+    clear: both;
+    font-size: 62px;
+    font-weight: 700;
+}
+.window1 div p{
+    clear: both;
+    font-size: 25px;
+    font-weight: 700;
+}
+.window1 .cards{
+    position: initial;
+}
+.window1 .card{
+    position: relative;
+    border-radius: 4px;
+    margin: 14px;
+    display: inline-block;
+    width: 166px;
+    height: 146px;
+    background-color: white;
+    box-shadow: 9px 10px 8px rgb(0 0 0);
+    top: 42px;
+    
+}
+.window1 .card i{
+    color: #e91e63;
+    position: relative;
+    top: 17px;
+}
+.window1 .card p{
+    color: black;
+    /* bottom: 0; */
+    position: relative;
+    bottom: -35px;
+    font-size: medium;
+
+
+    
+}
+.fa-arrow-left,.fa-arrow-right{
+    clear: both;
+    background-color: #e91e63;
+    border-radius: 50%;
+    padding: 11px   ;
+    position: relative;
+    bottom: -38px;
+    margin: 11px;
+}
+.slider{
+    display: inline;
+}
+
+
+/* ........................................................................ */
+
+.window2{
+    height: 713px;
+    width: 100%;
+    background-color: white;
+}
+.window2 div{
+    position: relative;
+    top: 90px;
+    margin-left: 593px;
+    /* left: 492px; */
+    margin: 0 auto;
+    text-align: center;
+}
+.window2 div p{
+    font-family: Poppins;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #516576;
+    text-transform: uppercase;
+
+}
+.window2 div h1{
+    color: #303d48;
+    font-family: Poppins;   
+    font-size: 54px;
+    line-height: 50px;
+}
+
+.window2 div hr{
+    align-self: center;
+    width: 70px;
+    height: 5px;
+    background-color: #e91e63;
+    border: none;
+    margin-left: 802px;
+    margin-top: 23px;
+}
+.window2 .cards{
+    clear: both;
+    margin: 0 auto;
+}
+.window2 .cards .card1{
+   display: inline-block;
+
+    position: relative;
+    width: 271px;
+    height: 405px;
+    /* border: 2px solid black; */
+    top: 32px;
+    margin: 14px;
+    box-shadow: 1px 1px 6px grey;
+    border-radius: 7px;
+}
+
+.window2 .cards .card1 .img1{
+    background-image: url("./card1.jpg");
+    height: 180px;
+    width: 100%;
+    background-size: contain;
+    top: 0;
+    border-radius: 5px;
+}
+.window2 .cards .card1 .img2{
+    background-image: url("./card2.jpg");
+    height: 180px;
+    width: 100%;
+    background-size: contain;
+    top: 0;
+    border-radius: 5px;
+}
+.window2 .cards .card1 .img3{
+    background-image: url("./card3.jpg");
+    height: 180px;
+    width: 100%;
+    background-size: contain;
+    top: 0;
+    border-radius: 5px;
+}
+.window2 .cards .card1 .img4{
+    background-image: url("./card4.jpg");
+    height: 180px;
+    width: 100%;
+    background-size: contain;
+    top: 0;
+    border-radius: 5px;
+}
+
+.window2 .cards .card1 h2{
+    font-family: Poppins;
+    margin-bottom: 15px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 0px;
+    position: relative;
+    bottom: -8px;
+}
+.window2 .cards .card1 hr{
+    align-self: center;
+    width: 70px;
+    height: 2px;
+    background-color: #e91e63;
+    border: none;
+    margin-left: 100px;
+    margin-top: 26px;
+}
+.window2 .cards .card1:hover{
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+}
+.window2 .cards .card1 p{
+    position: relative;
+    bottom: -17px;
+    width: 246px;
+    line-height: 30px;
+    right: -12px;
+    text-transform: capitalize;
+}
+.window2 .cards .card1 .bottom{
+    height: 221px;
+    width: 100%;
+
+    top: 0;
+}
+/* ............................................. */
+.window3{
+    height: 281px;
+    width: 100%;
+    background-color: #e91e63;
+}
+.window3 .blocks{
+    position: relative;
+    margin-left: 172px;
+}
+.window3 .block:not(:last-child){
+    border-right: 1px solid white;
+}
+.window3 .block{
+    display: inline-block;
+    width: 299px;
+    height: 102px;
+    
+    position: relative;
+    bottom: -89px;
+}
+.window3 .block .block-content{
+    font-family: Poppins;
+    color: white;
+    position: relative;
+    top: -7px;
+    right: -1px;
+    text-align: center;
+}
+.window3 .block .block-content p{
+    font-size: 29px;
+}
+.window3 .block .block-content h3{
+    font-size: 47px;
+}
+/* ......................................................... */
+.window4{
+    height: 781px;
+    width: 100%;
+    background-color: white;
+}
+.window4 img{
+    float: left;
+    height: 683px;
+    position: relative;
+    bottom: -98px;
+    margin-left:164px
+}
+.win4content{
+    position: relative;
+    float: right;
+    height: 500px;
+    font-family: Poppins;
+    color: #303d48;
+    bottom: -170px;
+    left: -271px;
+    
+}
+.win4content h1{
+    font-size: 54px;
+    
+}
+.win4content h3{
+    color: #666a6e;
+}
+.win4content hr{
+    align-self: center;
+    width: 83px;
+    height: 3px;
+    background-color: #e91e63;
+    border: none;
+    /* margin-left: 25px; */
+    margin-top: 26px;
+}
+.win4content ul{
+    position: relative;
+    bottom: -30px;
+    list-style: none;
+}
+.win4content ul i{
+    color: #e91e63;
+    margin-right: 18px;
+    position: relative;
+    bottom: -6px;
+}
+.win4content li{
+    display:list-item;
+    margin: 20px;
+}
+/* ............................................. */
+.window5{
+    clear: both;
+    height: 1371px;
+    width: 100%;
+    background-color: #ececec;
+}
+.window5 div{position: relative;
+top: 90px;
+margin-left: 593px;
+/* left: 492px; */
+margin: 0 auto;
+text-align: center;}
+.window5 div h1{
+    color: #303d48;
+    font-family: Poppins;   
+    font-size: 54px;
+    line-height: 50px;
+}
+.window5 div p{
+    font-family: Poppins;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #516576;
+    text-transform: uppercase;
+    position: relative;
+    bottom: -15px;
+
+}
+.window5 div hr{
+    align-self: center;
+    width: 83px;
+    height: 3px;
+    background-color: #e91e63;
+    border: none;
+  
+    margin-left: 806px;
+    margin-top: 38px;
+}
+.window5 .listOfDepartments{
+    position: relative;
+top: 90px;
+margin-left: 593px;
+/* left: 492px; */
+margin: 0 auto;
+text-align: center;
+}
+.window5 .listOfDepartments ul{
+    font-family: Poppins;
+    position: relative;
+    bottom: -30px;
+    list-style: none;
+
+}
+.window5 .listOfDepartments li{
+    padding: 10px;
+    font-size: 17px;
+
+}
+.window5 .listOfDepartments li:first-child{
+    padding: 10px;
+    background-color:#e91e63 ;
+    border-radius: 30px;
+}
+.window5 .listOfDepartments li:hover{
+    background-color:#e91e63 ;
+    border-radius: 30px;
+}
+.window5 .cards{
+    clear: both;
+    margin: 0 auto;
+}
+
+.window5 .card1{
+    background-color: white;
+    height: 424px;
+    width: 370px;
+    border-bottom: 2px solid #e91e63;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 14px;
+    box-shadow: 11px 11px 12px rgb(0 0 0 / 30%);
+}
+.window5 .card1:hover{
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+}
+.window5 .card1 .bgimage{
+    height: 299px;
+    width: 370px;
+    
+    position: initial;
+    border-radius: 5px;
+}
+.window5 .card1 .bgimage p{
+    color: rgb(180, 179, 179);
+    position: relative;
+    bottom: -268px;
+    
+}
+.window5 .card1 .bgimage .left{
+    color: white;
+    float: left;
+    margin-left: 21px;
+    margin-top: -26px;
+    font-size: large;
+
+}
+.window5 .card1 .bgimage .right{
+    color: white;
+    margin-right: 11px;
+    float: right;
+    
+}
+
+.window5 .card1 .bgimage .right p{
+    color: white;
+    bottom: -163px;
+    font-size: small;
+}
+
+.window5 .card1 .bgimage .stars{
+    position: relative;
+    top: 245px;
+    right: -132px;
+}
+.window5 .card1 .tutorName{
+    position: relative;
+    bottom: -71px;
+    margin: 7px;
+    font-size: medium;
+}
+
+.window5 .card1 .students{
+    position: relative;
+    bottom: -71px;
+    margin: 7px;
+    font-size: medium;
+}
+.window5 .card1 .tutorName{
+    float: left;
+}
+.window5 .card1 .students{
+    float: right;
+}
+
+.window5 .card1 h3{
+    color: #303d48;
+    font-size: 22px;
+    position: absolute;
+    font-family: Poppins;
+    bottom: 73px;
+    margin-left: 9px;
+}
+.window5 button{
+    color: white;
+    background-color: #e91e63;
+    height: 52px;
+    width: 159px;
+    border: none;
+    border-radius: 30px;
+    position: relative;
+    margin: 0 auto;
+    display: block;
+    bottom: -225px;
+    font-family: 'Poppins';
+    font-size: 18.5px;
+}
+.window5 button:hover{
+    background-color: #833750;
+}
+
+
+/* ...................................... */
+
+
+.window6{
+    clear: both;
+    height: 448px;
+    width: 100%;
+    background-color: white;
+}
+.window6 .courseBuilder{
+    float: left;
+    margin-left: 250px;
+    margin-top: 96px;
+    
+}
+
+
+.window6 h1{
+    color: #303d48;
+    font-family: Poppins;   
+    font-size: 38px;
+    line-height: 50px;
+}
+
+.window6 p{
+    font-family: Poppins;
+    font-size: 18px;
+    line-height: 28px;
+    
+    color: #516576;
+    /* text-transform: uppercase; */
+    position: relative;
+    bottom: -15px;
+    width: 497px;
+}
+.window6 h3{
+    font-family: Poppins;
+    
+    color: #303d48;
+    position: relative;
+    top: 58px;
+    
+}
+.window6 h3 i{
+    position: relative;
+    bottom: -19px;
+    left: -10px;
+}
+.window6 .Rates{
+    float: right;
+   margin-right: 421px;
+   margin-top: 110px;
+    
+}
+.window6 .Rates h2{
+    
+    font-family: Poppins;
+    color: #303d48;
+    line-height: 55px;
+    font-size: 33px;
+}
+
+/* Window7........................... */
+.window7{
+    clear: both;
+    height: 781px;
+    width: 100%;
+    background-color: #ececec;
+    font-family: Poppins;
+}
+.window7 .head{
+    margin-left: 546px;
+    position: relative;
+    
+    bottom: -96px;
+}
+.window7 .head h1{
+    font-size: 54px;
+    color: #434649;
+    
+}
+.window7 .head h3{
+    color: #484b4e;
+}
+.window7 .head hr{
+    align-self: center;
+    width: 83px;
+    height: 4px;
+    background-color: #e91e63;
+    border: none;
+    margin-left: 198px;
+    margin-top: 26px;
+}
+
+.window7 .main{
+    position: relative;
+    bottom: -139px;
+    height: 468px;
+    width: 1176px;
+    
+    display: block;
+    margin: 0 auto;
+}
+.window7 .dates{
+    float: left;
+}
+.window7 .card1{
+    background-color: white;
+   height: 142px;
+   width: 776px;
+   box-shadow: 0px 0px 12px rgb(0 0 0 / 30%);
+   border-radius: 5px;
+   margin-bottom: 17px;
+}
+.window7 .card1:hover{
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+}
+.window7 .card1 .date{
+    float: left;
+    margin-top: 27px;
+    margin-left: 33px;
+}
+.window7 .card1 .date h1{
+    color: #434649;
+}
+.window7 .card1 .date .month{
+    color: #484b4e;
+}
+.window7 .card1 .date .year{
+    text-align: center;
+    background-color:#e9ebeb;
+    width: 44px;
+}
+.window7 .card1 img{
+    float: left;
+    height: 85px;
+    width: 85px;
+    border-radius: 50%;
+    margin-top: 29px;
+    margin-left: 58px;
+}
+.window7 .card1 .details{
+    margin-top: 27px;
+    margin-left: 18px;
+    float: left;
+}
+.window7 .card1 .details .time,.place{
+    color: #6e6f70;
+}
+.window7 .card1 .details h3{
+    color: #333638;
+}
+
+.window7 .card{
+    float: right;
+    height: 462px;
+    width: 369px;
+    
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url("./bookread.jfif");
+    background-size: cover;
+    background-position-x: center;
+}
+.window7 .card i{
+    margin-top: 26px;
+    
+}
+.window7 .card div{
+    color: white;
+    margin-left: 30px;
+}
+.window7 .card div h2{
+    margin-top: 10px;
+}
+.window7 .card div p{
+    width: 281px;
+    margin-top: 10px;
+    line-height: 25px;
+}
+.window7 .card div button{
+    width: 174px;
+    height: 49px;
+    background: transparent;
+    border-radius: 30px;
+    border: 2px solid white;
+    font-family: Poppins;
+    color: white;
+    position: relative;
+    bottom: -116px;
+}
+.window7 .card div button:hover{
+    color:#434649 ;
+    background: white;
+}
+
+
+
+/* Window 8................................................................... */
+
+.window8{
+    clear: both;
+    height: 290px;
+    width: 100%;
+    background-color: white;
+}
+.window8 .block{
+    width: 1171px;
+    height: 122px;
+    background: #e91e63;
+    display: block;
+    position: relative;
+    margin:0 auto;
+    bottom: -89px;
+}
+.window8 .block .call{
+    float: left;
+    width: 569px;
+    border-right: 0.5px solid #e96490;
+    height: 100%;
+}
+.window8 .block .call i{
+    float: left;
+    margin-left: 29px;
+}
+.window8 .block .call h4{
+    color:#f1dbe2 ;
+    font-family: Poppins;
+float: left;
+margin-left: 24px;
+font-size: 20px;
+
+}
+.window8 .block .call i,h4{
+padding-top: 32px;
+}
+
+
+.window8 .block .mail{
+    float: left;
+    width: 569px;
+    
+    height: 100%;
+}
+.window8 .block .mail i{
+    float: left;
+    margin-left: 29px;
+}
+.window8 .block .mail h4{
+    color:#f1dbe2 ;
+    font-family: Poppins;
+float: left;
+margin-left: 24px;
+font-size: 20px;
+
+}
+.window8 .block .mail i,h4{
+padding-top: 32px;
+}
+.window8 .block .mail a{font-size: large;
+    color: #f1dbe2;
+    text-decoration: none;}
+
+/* Window 9............................................... */
+
+.window9{
+    clear: both;
+    height: 483px;
+    width: 100%;
+    background-color: #26282c;
+}
+.window9 .div1,.div2,.div3,.div4{
+float: left;
+width: 276px;
+margin-top: 77px;
+margin-right: 23px;
+}
+.window9 .div1{
+    margin-left: 172px;
+   
+    
+}
+.window9 .div1 p{
+color: #999;
+font-family: Poppins;
+line-height: 30px;
+}
+.window9 .white-Logo{
+    height: 64px;
+    width: 165px;
+}
+
+.window9 .div2 h1{
+font-family: Poppins;
+color: white;
+font-size: 22px;
+}
+.window9 .div2 li{
+    font-size: large;
+    line-height: 30px;
+   margin: 20px;
+    font-family: Poppins;
+    display: list-item;
+    list-style: none;
+    color:white ;
+    border-bottom:1px solid #484a50;
+}
+.window9 .div2 li:hover{
+    color:#e96490 ;
+    border-bottom:1px solid #e96490;
+}
+.window9 .div3 h1{
+    font-family: Poppins;
+    color: white;
+    font-size: 22px;
+    }
+    .window9 .div3{
+        font-family: Poppins;
+    
+    
+    }
+    .window9 .div3{
+        line-height: 35px;
+    }
+    .window9 .div3 h2{
+        color: white;font-size: 20px;}
+        .window9 .div3 p,a{
+            color: #999;
+            text-decoration: none;
+        }
+
+
+.window9 .div4{
+    color: white;
+    text-align: center;
+    font-family: Poppins;
+    height: 276px;
+    width: 272px;
+    background-color:#e91e63  ;
+    border-radius: 5px;
+}
+.window9 .div4 h1{
+    margin-top: 26px;
+    font-size: x-large;
+}
+.window9 .div4 p{
+    margin-top: 27px;  
+    font-size: medium;
+}
+.window9 .div4 button{
+    width: 171px;
+    height: 52px;
+    border-radius: 30px;
+    font-family: Poppins;
+    border: none;
+    color: #e91e63 ;
+    font-size: medium;
+    position: relative;
+    bottom: -21px;
+}
+.window9 .div4 button:hover{
+    bottom: -17px;
+}
+
+
+
+
+.window10{
+    font-family: Poppins;
+    clear: both;
+    height: 57px;
+    width: 100%;
+    background-color: #202026;
+}
+.window10 .copyrights{
+    color: #999;
+    float: left;
+    margin-top: 14px;
+    margin-left: 200px;
+}
+.window10 .social{
+    text-align: center;
+    color: white;
+    float: right;
+    margin-right: 340px;
+}
+.window10 .social .fb{
+    background-color: #e91e63 ;
+    float: left;
+    width: 150px;
+    height: 55px;
+    border-right: 0.5px solid #32323a;
+}
+.window10 .social .tweet{
+   
+    background-color: #e91e63 ;
+    float: right;
+    width: 145px;
+    height: 55px;
+}
+.window10 .social h3{
+    margin-top: 11px;
+}
+.window10 .social .tweet:hover{
+    background-color: #da688e
+}
+.window10 .social .fb:hover{
+    
+    background-color: #da688e
+}
